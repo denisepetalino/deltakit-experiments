@@ -45,12 +45,6 @@ The repetition code circuit is executed using `stimcirq.StimSampler()`, which of
 - `repetition_bitflip.py`  
   Implements the encoder, stabiliser measurement, noise model, full circuit assembly, and syndrome extraction exactly as in the textbook.
 
-## What this satisfies (for certification / CV)
-- Installed **Stim**, **PyMatching**, **Cirq**  
-- Implemented **first repetition code under noise**  
-- Performed **initial syndrome extraction**  
-- Aligned directly with Riverlane Deltakit educational material
-
 ## Quickstart
 
 ### 1) Create a virtual environment
